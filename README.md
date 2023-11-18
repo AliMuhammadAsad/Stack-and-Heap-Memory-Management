@@ -2,7 +2,7 @@
 This program was made on receiving the homework assignment for the course ```CS232 Operating Systems```. The program would simulate a simple stack and heap memory of 500 bytes with a stack starting from the top growing downwards, taking 200 bytes, and a heap growing from the bottom to the top, taking 300 bytes. In the stack, we first have the Frame Status List to store a Stack Frame metadata, and immediately below the list we have the stack frames themselves storing the stack data.
 
 ### Memory Layout and Design
-<img align="left" alt="layout" src="layout.png" width="100%"/>
+<img align="left" alt="layout" src="layout.png" width="50%"/>
 
 A character array was used to simulate the 500 bytes of memory. The code is contained in the [memorysystem.c](memorysystem.c) file.
 
